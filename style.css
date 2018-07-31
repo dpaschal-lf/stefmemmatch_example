@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+}
+#container{
+	width: 100vw;
+	height: 100vh;
+}
+.card{
+	height:16.6%;
+	width: 33%;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: relative;
+}
+.back, .front{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
